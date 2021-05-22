@@ -17,11 +17,11 @@ pipeline {
                       }
                    }
         }   post   {
-            always     {   
+              always     {   
                 echo 'Pipeline runs fine'
-        }
-            success    {
+                    }   
+              success    {
                 echo 'Pipeline runs fine'
-        }
-      }
-}
+                    } 
+            }    
+    }
