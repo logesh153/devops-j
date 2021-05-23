@@ -18,15 +18,4 @@ pipeline {
                       }
                    }
           }
-  post  {
-    always  { 
-        echo 'Pipe runs fine'
-           }
-    success {
-        echo 'Pipeline runs fine'
-           }
-    failure {
-        echo 'Pipeline is failed'
-           }
-        }
  }
